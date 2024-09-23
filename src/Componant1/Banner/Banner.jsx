@@ -35,7 +35,8 @@ const Banner = () => {
               <div className="pt-36">
                 <div className="relative banner-content">
                   <h1 className="font-AlbertSans font-extrabold text-white text-[30px] sm:text-[56px] md:text-[70px] lg:text-[50px] xl:text-[60px] 2xl:text-[68px]">
-                    Construye la casa de campo de tus sueños
+                    Construye la casa de campo <br />
+                    de tus sueños
                   </h1>
                   <p className="font-AlbertSans text-lg text-white mb-10">
                     Venta de lotes y fincas en el corazón del eje cafetero
@@ -55,7 +56,7 @@ const Banner = () => {
                           onClick={() => setToggler(!toggler)}
                         />
                       </button>
-                      Watch Video
+                      Ver Video
                     </div>
                     <FsLightbox
                       toggler={toggler}

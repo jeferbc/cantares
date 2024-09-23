@@ -8,30 +8,44 @@ const counterData = [
   {
     id: 1,
     counterIcon: counterIcon,
-    counterNumber: 100,
-    counterDesc: "Team Member",
-    counterSuffex: "+",
+    counterDesc: "Vias internas",
+    counterSuffex: "",
   },
   {
     id: 2,
     counterIcon: counterIcon2,
-    counterNumber: 960,
-    counterDesc: "Complete works",
-    counterSuffex: "+",
+    counterDesc: "Puertas eléctricas",
+    counterSuffex: "",
   },
   {
     id: 3,
     counterIcon: counterIcon3,
-    counterNumber: 38,
-    counterDesc: "Awards Winnig",
+    counterDesc: "Luminarias",
     counterSuffex: "",
   },
   {
     id: 4,
     counterIcon: counterIcon4,
-    counterNumber: 4,
-    counterDesc: "Avg. Ratings",
+    counterDesc: "Paisajismo nativo",
     counterSuffex: ".7",
+  },
+  {
+    id: 5,
+    counterIcon: counterIcon,
+    counterDesc: "Servicio de Agua",
+    counterSuffex: "",
+  },
+  {
+    id: 6,
+    counterIcon: counterIcon,
+    counterDesc: "Electricidad",
+    counterSuffex: "",
+  },
+  {
+    id: 7,
+    counterIcon: counterIcon2,
+    counterDesc: "Tratamiento de aguas residuales",
+    counterSuffex: "",
   },
 ];
 
@@ -44,7 +58,6 @@ const Counter = () => {
             ({
               id,
               counterIcon,
-              counterNumber,
               counterDesc,
               counterSuffex,
             }) => {
@@ -52,7 +65,6 @@ const Counter = () => {
                 <div key={id}>
                   <CounterCard
                     counterIcon={counterIcon}
-                    counterNumber={counterNumber}
                     counterDesc={counterDesc}
                     counterSuffex={counterSuffex}
                   />

@@ -1,24 +1,13 @@
-/* eslint-disable react/prop-types */
-import CountUp from "react-countup";
-
 const CounterCard = ({
+  // eslint-disable-next-line react/prop-types
   counterIcon,
-  counterNumber,
+  // eslint-disable-next-line react/prop-types
   counterDesc,
-  counterSuffex,
 }) => {
   return (
-    <div className="text-center">
+    <div className="text-center mb-7">
       <div>
-        <img src={counterIcon} draggable="false" className="m-auto" />
-      </div>
-      <div className="mt-3 -mb-1">
-        <CountUp
-          start={-11}
-          end={counterNumber}
-          suffix={counterSuffex}
-          className="font-AlbertSans text-[46px] text-white font-bold"
-        />
+        <img src={counterIcon} draggable="false" className="m-auto mb-2" />
       </div>
       <p className="font-AlbertSans text-white text-xl">{counterDesc}</p>
     </div>
