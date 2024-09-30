@@ -1,5 +1,6 @@
-import serviceImg from "/images/service2-thumb.jpg";
-import serviceImg3 from "/images/service2-thumb3.jpg";
+import serviceImg from "/images/paisajes_de_berlín.png";
+import serviceImg1 from "/images/paisajes_blanco.png";
+import serviceImg3 from "/images/villa_amparo.png";
 import serviceIcon from "/images/service2-icon.png";
 import serviceIcon3 from "/images/service2-icon3.png";
 import serviceShape from "/images/service-shape.png";
@@ -15,7 +16,7 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceUrl: "/service_details",
     serviceButton2: "Mas información",
-    serviceTitle: "Paisajes de berlín #1",
+    serviceTitle: "Lotes en el eje cafetero",
     serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
   },
@@ -30,22 +31,22 @@ const ServiceData = [
   //   serviceShape: serviceShape,
   // },
   {
-    id: 3,
-    serviceImg: serviceImg3,
-    serviceIcon: serviceIcon3,
-    serviceUrl: "/service_details",
-    serviceButton2: "Mas información",
-    serviceTitle: "Finca hotel Villa Bernal",
-    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
-    serviceShape: serviceShape,
-  },
-  {
     id: 4,
-    serviceImg: serviceImg,
+    serviceImg: serviceImg3,
     serviceIcon: serviceIcon,
     serviceUrl: "/service_details",
     serviceButton2: "Mas información",
     serviceTitle: "Finca villa amparo",
+    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+    serviceShape: serviceShape,
+  },
+  {
+    id: 3,
+    serviceImg: serviceImg1,
+    serviceIcon: serviceIcon3,
+    serviceUrl: "/service_details",
+    serviceButton2: "Mas información",
+    serviceTitle: "Lote en Rionegro Antioquia",
     serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
   },

@@ -12,25 +12,25 @@ const processData = [
     id: 1,
     processIcon: processIcon,
     boxShape: boxShape,
-    processTitle: "Collection Dust",
+    processTitle: "Elige tu lote",
     processDesc:
-      "Proactively drive maintainable value next mission-critical infrastructures eggplant new environmental nature",
+      "Tenemos lotes con todas las tipografías, para que puedas elegir el que más se ajuste a tus sueños",
   },
 
   {
     id: 2,
     processIcon: processIcon2,
     boxShape: boxShape2,
-    processTitle: "Dust Recycling",
+    processTitle: "Selecciona tu forma de pago",
     processDesc:
-      "Proactively drive maintainable value next mission-critical infrastructures eggplant new environmental nature",
+      "Tenemos diferentes formas de pago, para que puedas elegir la que más se ajuste a tus necesidades",
   },
   {
     id: 3,
     processIcon: processIcon3,
-    processTitle: "Cleaning Environment",
+    processTitle: "Firma escrituras y construye tu sueño",
     processDesc:
-      "Proactively drive maintainable value next mission-critical infrastructures eggplant new environmental nature",
+      "Con la firma de escrituras, podrás empezar a construir tu sueño en el eje cafetero",
   },
 ];
 
@@ -45,7 +45,7 @@ const Process = () => {
             WORKING PROCESS
           </h5>
           <h1 className="font-AlbertSans font-bold text-[22px] leading-8 sm:text-[38px] sm:leading-[48px] md:text-[44px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-HeadingColor-0 mt-5 mb-3">
-            Process To Safe Environment
+            Proceso de compra
           </h1>
         </div>
         <div className="pb-16 mt-[60px]">

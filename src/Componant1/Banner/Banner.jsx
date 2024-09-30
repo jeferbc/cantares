@@ -30,7 +30,7 @@ const Banner = () => {
     <div className="relative">
       <Swiper {...settings} pagination={pagination} modules={[Pagination]}>
         <SwiperSlide>
-          <section className="bg-[url('/images/banner-bg.jpg')] bg-cover bg-left lg:bg-center bg-no-repeat h-[750px] sm:h-[700px] md:h-[750px] lg:h-[760px] xl:h-[960px] flex items-center">
+          <section className="bg-[url('/images/home.jpg')] bg-cover bg-left lg:bg-center bg-no-repeat h-[750px] sm:h-[700px] md:h-[750px] lg:h-[760px] xl:h-[960px] flex items-center">
             <div className="Container">
               <div className="pt-36">
                 <div className="relative banner-content">

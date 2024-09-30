@@ -10,25 +10,25 @@ const Faq = () => {
   const faqs = [
     {
       faqIcon: faqIcon,
-      title: "How to Cleaning Sea Beach Properly?",
+      title: "¿Como es el proceso de firma de escrituras?",
       text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
       active: true,
     },
     {
       faqIcon: faqIcon,
-      title: "How to save earth using trees?",
+      title: "¿Porqué es una buena inversión comprar los lotes?",
       text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
       active: false,
     },
     {
       faqIcon: faqIcon,
-      title: "When Seedlings a Plants?",
+      title: "¿Cómo puedo mantener mi lote organizado?",
       text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
       active: false,
     },
     {
       faqIcon: faqIcon,
-      title: "Can I Donate money using Website?",
+      title: "¿Con que servicios disponen los lotes en parcelación?",
       text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
       active: false,
     },
@@ -51,18 +51,11 @@ const Faq = () => {
               FAQ
             </h5>
             <h1 className="font-AlbertSans font-bold text-[22px] leading-8 sm:text-[38px] sm:leading-[48px] md:text-[44px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-HeadingColor-0 mt-5 mb-6">
-              Freequently Asked <br />
-              Questions
+              Preguntas frecuentes
             </h1>
             <p className="font-AlbertSans text-TextColor-0 font-light mb-9">
               {`Competently cultivate worldwide e-tailers through principle-centered professionally engineer high-payoff deliverables without exceptional processes. Rapidiously network cost effective vortals`}
             </p>
-            <Link to={"/about"}>
-              <button className="primary-btn">
-                {`Learn More`}
-                <img src={buttonShape} draggable="false" />
-              </button>
-            </Link>
           </div>
           <div className="w-full mx-auto">
             <div>

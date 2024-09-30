@@ -1,4 +1,4 @@
-import aboutThumb from "/images/about5-thumb.png";
+import aboutThumb from "/images/mapa.png";
 import aboutShape from "/images/about5-shape.png";
 import subTitleShape from "/images/title-shape-2.png";
 import { Link } from "react-router-dom";
@@ -17,19 +17,6 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-8 xl:gap-[60px] 2xl:gap-0 items-center">
           <div className="relative inline-block">
             <img src={aboutThumb} draggable="false" />
-            <div className="text-center border-[8px] border-PrimaryColor-0 rounded-md bg-white w-[218px] h-[228px] flex justify-center items-center flex-col absolute bottom-0 right-0 md:right-[132px] lg:right-0 2xl:right-[76px]">
-              <div>
-                <img src={icon} draggable="false" className="m-auto"/>
-              </div>
-              <h5 className="font-AlbertSans font-medium text-lg text-HeadingColor-0 mt-[18px] mb-[6px]">Place of Animals</h5>
-              <p className="font-AlbertSans font-medium text-PrimaryColor-0 mb-5">8:30AM - 6:00PM</p>
-              <Link to={"/"}>
-                <button className="font-AlbertSans font-medium text-HeadingColor-0 text-[15px] flex gap-2 items-center">
-                  View Map
-                  <IoIosSend size={"20"} className="text-PrimaryColor-0"/>
-                </button>
-              </Link>
-            </div>
           </div>
           <div className="relative">
             <h5 className="font-AlbertSans font-semibold text-PrimaryColor-0 flex items-center gap-2">

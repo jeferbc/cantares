@@ -7,55 +7,69 @@ import PricingCard from "./PricingCard";
 const pricingData = [
   {
     id: 1,
-    currency: "$",
-    price: 39,
-    pricingDateLine: "Month",
-    pricingDesc:
-      "Fast project turnaround time, substantial cost savings & quality standards.",
-    pricingTitle: "Starter Plans",
+    // currency: "$",
+    // price: 39,
+    // pricingDateLine: "Month",
+    // pricingDesc:
+    //   "Fast project turnaround time, substantial cost savings & quality standards.",
+    pricingTitle: "Pago a 1 mes",
     pricingIcon: <FaCircle />,
-    pricingContent1: "Repair & Replacement",
-    pricingContent2: "Reliability And Performance",
-    pricingContent3: "Real Solar PV Systems",
-    pricingContent4: "Just-In-Time Manufacturing",
+    pricingContent1: "Desuento De $12.000.000",
+    pricingContent2: "Firma inmediata de escrituras",
+    pricingContent3: "Siembra de linderos",
     pricingUrl: "/pricing_inner",
-    pricingBtn: "Choose Plan",
+    pricingBtn: "Más información",
     pricingShape1: pricingShape1,
     pricingShape2: pricingShape2,
   },
   {
     id: 2,
-    currency: "$",
-    price: 59,
-    pricingDateLine: "Month",
-    pricingDesc:
-      "Fast project turnaround time, substantial cost savings & quality standards.",
-    pricingTitle: "Standard Plans",
+    // currency: "$",
+    // price: 59,
+    // pricingDateLine: "Month",
+    // pricingDesc:
+    //   "Fast project turnaround time, substantial cost savings & quality standards.",
+    pricingTitle: "Pago a 3 meses",
     pricingIcon: <FaCircle />,
-    pricingContent1: "Repair & Replacement",
-    pricingContent2: "Reliability And Performance",
-    pricingContent3: "Real Solar PV Systems",
-    pricingContent4: "Just-In-Time Manufacturing",
+    pricingContent1: "Desuento De $5.000.000",
+    pricingContent3: "Financiación con nosotros",
+    pricingContent2: "Comprenta con el 40% del pago",
     pricingUrl: "/pricing_inner",
-    pricingBtn: "Choose Plan",
+    pricingBtn: "Más información",
     pricingShape1: pricingShape1,
     pricingShape2: pricingShape2,
   },
   {
     id: 3,
-    currency: "$",
-    price: 89,
-    pricingDateLine: "Month",
-    pricingDesc:
-      "Fast project turnaround time, substantial cost savings & quality standards.",
-    pricingTitle: "Premium Plans",
+    // currency: "$",
+    // price: 89,
+    // pricingDateLine: "Month",
+    // pricingDesc:
+    //   "Fast project turnaround time, substantial cost savings & quality standards.",
+    pricingTitle: "Pago a 6 meses",
     pricingIcon: <FaCircle />,
-    pricingContent1: "Repair & Replacement",
-    pricingContent2: "Reliability And Performance",
-    pricingContent3: "Real Solar PV Systems",
-    pricingContent4: "Just-In-Time Manufacturing",
+    pricingContent1: "Sin intereses",
+    pricingContent3: "Financiación con nosotros",
+    pricingContent2: "Comprenta con el 40% del pago",
     pricingUrl: "/pricing_inner",
-    pricingBtn: "Choose Plan",
+    pricingBtn: "Más información",
+    pricingShape1: pricingShape1,
+    pricingShape2: pricingShape2,
+  },
+  {
+    id: 3,
+    // currency: "$",
+    // price: 89,
+    // pricingDateLine: "Month",
+    // pricingDesc:
+    //   "Fast project turnaround time, substantial cost savings & quality standards.",
+    pricingTitle: "Pago a 1 año",
+    pricingIcon: <FaCircle />,
+    pricingContent1: "Interés del 1% a partir del septimo mes",
+    pricingContent2: "Comprenta con el 40% del pago",
+    pricingContent3: "Real Solar PV Systems",
+    pricingUrl: "/pricing_inner",
+    pricingBtn: "Más información",
     pricingShape1: pricingShape1,
     pricingShape2: pricingShape2,
   },
@@ -68,11 +82,11 @@ const Pricing = () => {
         <div className="text-center">
           <h5 className="font-AlbertSans font-medium text-PrimaryColor-0 flex items-center justify-center gap-2">
             <FaStarOfLife />
-            PRICING PLAN <FaStarOfLife />
+            Plan de precios <FaStarOfLife />
           </h5>
           <h1 className="font-AlbertSans font-bold text-[22px] leading-8 sm:text-[38px] sm:leading-[48px] md:text-[44px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-HeadingColor-0 mt-2 mb-6">
-            A Customizable Approach
-            <br /> for Your Business
+            Separa tu lote con solo
+            <br /> $10.000.000 COP
           </h1>
         </div>
         <div className="mt-12">

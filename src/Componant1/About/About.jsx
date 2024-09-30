@@ -1,5 +1,4 @@
-import aboutThumb from "/images/about.png";
-import aboutAward from "/images/about-award.png";
+import aboutThumb from "/images/alta_valorización.png";
 import aboutIcon from "/images/about-icon.png";
 import aboutIcon2 from "/images/about-icon2.png";
 import aboutShape from "/images/about-shape.png";
@@ -20,11 +19,6 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[92px] lg:gap-5 xl:gap-24 items-center">
           <div className="relative">
             <img src={aboutThumb} draggable="false" />
-            <img
-              src={aboutAward}
-              draggable="false"
-              className="absolute bottom-10 left-0 animate-movebtn hidden sm:block"
-            />
           </div>
           <div className="relative">
             <h5 className="font-AlbertSans font-medium text-PrimaryColor-0 flex items-center gap-2">
