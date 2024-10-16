@@ -60,12 +60,12 @@ const About = () => {
                 </h5> 
               </div>
             </div>
-            <Link to={"/about"}>
+            {/* <Link to={"/about"}>
               <button className="primary-btn">
                 {`More About`}
                 <img src={buttonShape} draggable="false" />
               </button>
-            </Link>
+            </Link> */}
             <img
               src={aboutShape}
               draggable="false"

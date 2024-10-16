@@ -47,6 +47,12 @@ const counterData = [
     counterDesc: "Tratamiento de aguas residuales",
     counterSuffex: "",
   },
+  {
+    id: 8,
+    counterIcon: counterIcon3,
+    counterDesc: "Alta valorización",
+    counterSuffex: "",
+  },
 ];
 
 const Counter = () => {

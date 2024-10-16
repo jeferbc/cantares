@@ -1,6 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import shape from "/images/appointment-shape.png";
 import shape2 from "/images/appointment-shape2.png";
 
@@ -23,23 +22,15 @@ const Appointment = () => {
               <br />
               Nosotros te contactamos
             </h1>
-            <div className="inline-block">
-              <Link to={"/about"} className="flex justify-center items-center">
-                <button className="primary-btn2 !border-white !border">
-                  Escríbenos
-                  <FaArrowRightLong size={"20"} />
-                </button>
-              </Link>
-            </div>
           </div>
           <div className="mr-2">
-            <form action="#" method="post" className="flex flex-col gap-7">
+            <form action="https://formspree.io/f/mbljjpye" method="post" className="flex flex-col gap-7">
               <div className="flex flex-col md:flex-row gap-7">
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Your Name*"
+                  placeholder="Nombre"
                   required
                   className="border border-BorderColor2-0 rounded py-2 px-6 outline-none h-[56px] w-full"
                 />
@@ -47,8 +38,9 @@ const Appointment = () => {
                   type="text"
                   name="number"
                   id="number"
-                  placeholder="Your Number"
+                  placeholder="Tu Número de contacto"
                   className="border border-BorderColor2-0 rounded py-2 px-6 outline-none h-[56px] w-full"
+                  required
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-7">
@@ -56,27 +48,20 @@ const Appointment = () => {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Your E-Mail*"
+                  placeholder="Email"
                   required
-                  className="border border-BorderColor2-0 rounded py-2 px-6 outline-none h-[56px] w-full"
-                />
-                <input
-                  type="text"
-                  name="address"
-                  id="address"
-                  placeholder="Your Address"
                   className="border border-BorderColor2-0 rounded py-2 px-6 outline-none h-[56px] w-full"
                 />
               </div>
               <textarea
                 name="message"
                 id="message"
-                placeholder="Write A Message..."
+                placeholder="Deja tu mensaje"
                 className="border border-BorderColor2-0 rounded py-2 px-6 outline-none resize-none h-[140px] w-full"
               ></textarea>
               <div className="inline-block">
                 <button type="submit" className="primary-btn2">
-                  Submit Now
+                  Envíar
                   <FaArrowRightLong size={"20"} />
                 </button>
               </div>

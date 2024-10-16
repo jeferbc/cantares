@@ -40,16 +40,16 @@ const ServiceData = [
     serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
   },
-  {
-    id: 3,
-    serviceImg: serviceImg1,
-    serviceIcon: serviceIcon3,
-    serviceUrl: "/service_details",
-    serviceButton2: "Mas información",
-    serviceTitle: "Lote en Rionegro Antioquia",
-    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
-    serviceShape: serviceShape,
-  },
+  // {
+  //   id: 3,
+  //   serviceImg: serviceImg1,
+  //   serviceIcon: serviceIcon3,
+  //   serviceUrl: "/service_details",
+  //   serviceButton2: "Mas información",
+  //   serviceTitle: "Lote en Rionegro Antioquia",
+  //   serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+  //   serviceShape: serviceShape,
+  // },
 ];
 
 const Service = () => (

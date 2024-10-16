@@ -1,20 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { Link, NavLink } from "react-router-dom";
-import {
-  FaBars,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPhone,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
-import { BiChevronDown } from "react-icons/bi";
+import { FaBars } from "react-icons/fa6";
 import Logo from "/images/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
-import { IoSearch } from "react-icons/io5";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { CiLocationOn } from "react-icons/ci";
+import ContactUs from "../../Shared/ContactUs";
 
 const Navbar = () => {
   //sticky
@@ -50,7 +40,7 @@ const Navbar = () => {
     >
       {/* top Navbar */}
       <header className="bg-transparent overflow-hidden md:block">
-        <div className="Container flex items-center justify-between h-[50px]">
+        {/* <div className="Container flex items-center justify-between h-[50px]">
           <div className="flex items-center gap-10">
             <p className="font-AlbertSans text-[15px] text-white sm:flex hidden items-center gap-1">
               <CiLocationOn className="text-xl relative bottom-[2px] text-PrimaryColor-0" />
@@ -61,7 +51,7 @@ const Navbar = () => {
               className="font-AlbertSans text-[15px] text-white md:flex items-center gap-2 hidden"
             >
               <HiOutlineMailOpen size={"16"} className="text-PrimaryColor-0" />
-              example@gmail.com
+              inversoracantares@gmail.com
             </Link>
           </div>
           <div className="flex items-center gap-16">
@@ -111,7 +101,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </header>
       {/* top Navbar */}
       <header
@@ -124,25 +114,31 @@ const Navbar = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between lg:h-[100px] ">
             {/* website Logo */}
             <div className=" w-48 lg:w-52">
-              <Link to="/">
+              <Link to="/" class="flex flex-row items-center">
                 <img
                   draggable="false"
                   src={Logo}
-                  className="hidden lg:block"
+                  className="hidden lg:block size-24"
                   alt="website_logo"
                 />
+                <p className="hidden lg:block font-AlbertSans font-bold text-xl leading-6 sm:text-[38px] sm:leading-[48px] md:text-[40px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-white">
+                  Cantares
+                </p>
               </Link>
             </div>
             {/* small screen size */}
             <div className="w-full lg:hidden flex justify-between h-[70px] items-center p-3">
               <div className="w-28">
-                <Link to="/">
+                <Link to="/" class="flex flex-row items-center">
                   <img
                     draggable="false"
                     src={Logo}
-                    className="block lg:hidden "
+                    className="block lg:hidden"
                     alt="constre_website_logo"
                   />
+                  <p className="block lg:hidden font-AlbertSans font-bold text-xl leading-6 sm:text-[38px] sm:leading-[48px] md:text-[40px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-white">
+                    Cantares
+                  </p>
                 </Link>
               </div>
               {/* toggle bar mode. */}
@@ -212,9 +208,7 @@ const Navbar = () => {
                 </NavLink>
               </ul>
               <div className="hidden lg:flex items-center">
-                <Link to={"/appointment"} className="header-btn">
-                  Contáctanos
-                </Link>
+                <ContactUs />
               </div>
             </div>
           </div>

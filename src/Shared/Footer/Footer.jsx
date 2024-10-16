@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import footerLogo from "/images/logo.png";
+// import footerLogo from "/images/logo.png";
 import footerShape from "/images/footer-social-shape.png";
 import footerShape2 from "/images/footer-shape2.png";
 import footerShape3 from "/images/footer-shape.png";
 import footerLine from "/images/footer-line.png";
 import {
-  FaArrowRightLong,
+  // FaArrowRightLong,
   FaChevronRight,
   FaFacebookF,
   FaLinkedinIn,
@@ -81,12 +81,12 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
           <div>
-            <Link to={"/"}>
+            {/* <Link to={"/"}>
               <img src={footerLogo} draggable={false} />
             </Link>
             <p className="font-AlbertSans text-white mt-7 mb-5">
               Construye la casa de campo de tus sueños
-            </p>
+            </p> */}
             <div>
               <h6 className="font-AlbertSans font-medium text-white text-lg pl-8 relative before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-PrimaryColor-0 before:w-[22px] before:h-[2px]">
                 Contacto

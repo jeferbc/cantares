@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import pricingShape1 from "/images/pricing-shape-1.png";
+import pricingShape1 from "/images/hojitas-90X90.webp";
 import pricingShape2 from "/images/pricing-shape-2.png";
 import { FaCheck, FaCircle, FaStarOfLife } from "react-icons/fa6";
 import PricingCard from "./PricingCard";
@@ -57,7 +57,7 @@ const pricingData = [
     pricingShape2: pricingShape2,
   },
   {
-    id: 3,
+    id: 4,
     // currency: "$",
     // price: 89,
     // pricingDateLine: "Month",
