@@ -3,9 +3,9 @@ import aboutIcon from "/images/about-icon.png";
 import aboutIcon2 from "/images/about-icon2.png";
 import aboutShape from "/images/about-shape.png";
 import aboutShape2 from "/images/about-shape-1.png";
-import buttonShape from "/images/button-shape-1.png";
+// import buttonShape from "/images/button-shape-1.png";
 import subTitleShape from "/images/sub-title-shape.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const About = () => {
   return (

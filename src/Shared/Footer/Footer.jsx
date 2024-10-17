@@ -14,6 +14,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -111,28 +112,28 @@ const Footer = () => {
             </h4>
             <ul>
               <li>
-                <Link to={"/"}>
+                <HashLink to={"#header"}>
                   <button className="flex items-center gap-2 font-AlbertSans text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-[18px] opacity-60 hover:!opacity-100">
                     <FaChevronRight className="text-xs opacity-60" />
                     Inicio
                   </button>
-                </Link>
+                </HashLink>
               </li>
               <li>
-                <Link to={"/"}>
+                <HashLink to={"#projects"}>
                   <button className="flex items-center gap-2 font-AlbertSans text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-[18px] opacity-60 hover:!opacity-100">
                     <FaChevronRight className="text-xs opacity-60" />
                     Proyectos
                   </button>
-                </Link>
+                </HashLink>
               </li>
               <li>
-                <Link to={"/"}>
+                {/* <Link to={"/"}>
                   <button className="flex items-center gap-2 font-AlbertSans text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 opacity-60 hover:!opacity-100">
                     <FaChevronRight className="text-xs opacity-60" />
                     Blog
                   </button>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>  

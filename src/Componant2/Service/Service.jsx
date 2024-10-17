@@ -1,8 +1,8 @@
 import serviceImg from "/images/lote-paisajes.webp";
-import serviceImg1 from "/images/lote-rionegro.webp";
+// import serviceImg1 from "/images/lote-rionegro.webp";
 import serviceImg3 from "/images/finca_villa_amparo.webp";
 import serviceIcon from "/images/service2-icon.png";
-import serviceIcon3 from "/images/service2-icon3.png";
+// import serviceIcon3 from "/images/service2-icon3.png";
 import serviceShape from "/images/service-shape.png";
 import serviceMainShape1 from "/images/testi-shape-1.png";
 import serviceMainShape2 from "/images/testi-shape-2.png";
@@ -53,7 +53,7 @@ const ServiceData = [
 ];
 
 const Service = () => (
-  <section className="service relative pt-28 pb-[120px] bg-[#f5f8ed] z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 2xl:before:h-[54.8%] before:bg-[url('/images/service2-bg.jpg')] before:-z-10 before:bg-cover before:bg-center before:bg-y-repeat">
+  <section className="service relative pt-28 pb-[120px] bg-[#f5f8ed] z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 2xl:before:h-[54.8%] before:bg-[url('/images/service2-bg.jpg')] before:-z-10 before:bg-cover before:bg-center before:bg-y-repeat" id="projects">
     <img
       src={serviceMainShape1}
       draggable="false"

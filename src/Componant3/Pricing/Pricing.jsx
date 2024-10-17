@@ -77,7 +77,7 @@ const pricingData = [
 
 const Pricing = () => {
   return (
-    <section className="py-28 bg-[#f5f8ed]">
+    <section className="py-28 bg-[#f5f8ed]" id="pricing">
       <div className="Container">
         <div className="text-center">
           <h5 className="font-AlbertSans font-medium text-PrimaryColor-0 flex items-center justify-center gap-2">

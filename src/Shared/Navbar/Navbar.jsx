@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { FaBars } from "react-icons/fa6";
 import Logo from "/images/logo.png";
 import { useState, useEffect } from "react";
@@ -159,43 +160,54 @@ const Navbar = () => {
               <ul
                 className={`${
                   isOpen ? "block" : "hidden"
-                } text-right lg:w-fit ease-in-out flex-1 lg:flex space-y-2 lg:space-y-0 space-x-0 flex flex-col lg:flex-row capitalize text-sm lg:bg-transparent py-3 lg:py-0 font-AlbertSans font-medium sm:text-base text-white transition-all duration-500
+                } text-right lg:w-fit ease-in-out flex-1 lg:flex lg:items-center space-y-2 lg:space-y-0 space-x-0 flex flex-col lg:flex-row capitalize text-sm lg:bg-transparent py-3 lg:py-0 font-AlbertSans font-medium sm:text-base text-white transition-all duration-500
                 `}
               >
-                <NavLink
+                <HashLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
                       : isActive
                       ? "active"
                       : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-3 w-full block transition-all duration-300 group relative `}
-                  to="/about"
+                  to="#projects"
                 >
                   <span>Proyectos</span>
-                </NavLink>
-                <NavLink
+                </HashLink>
+                <HashLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
                       : isActive
                       ? "active"
                       : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-3 w-full block transition-all duration-300 group relative `}
-                  to="/about"
+                  to="#pricing"
                 >
-                  <span>Conocenos</span>
-                </NavLink>
-                <NavLink
+                  <span>Planes</span>
+                </HashLink>
+                <HashLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
                       : isActive
                       ? "active"
                       : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-3 w-full block transition-all duration-300 group relative `}
-                  to="/about"
+                  to="#benefits"
                 >
-                  <span>Preguntas</span>
-                </NavLink>
-                <NavLink
+                  <span>¿Porque comprar?</span>
+                </HashLink>
+                <HashLink
+                  className={`${({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active"
+                      : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-3 w-full block transition-all duration-300 group relative `}
+                  to="#faq"
+                >
+                  <span>Preguntas frecuentes</span>
+                </HashLink>
+                {/* <NavLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -205,7 +217,7 @@ const Navbar = () => {
                   to="/about"
                 >
                   <span>Noticias</span>
-                </NavLink>
+                </NavLink> */}
               </ul>
               <div className="hidden lg:flex items-center">
                 <ContactUs />

@@ -7,7 +7,7 @@ import icon from "/images/about5-icon.png"
 
 const About = () => {
   return (
-    <section className="py-[120px] relative">
+    <section className="py-[120px] relative" id="benefits">
       <img
         src={aboutShape}
         draggable="false"
