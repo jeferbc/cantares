@@ -33,136 +33,136 @@ import TestimonialInner from "../Pages/InnerPage/TestimonialInner/TestimonialInn
 
 const router = createBrowserRouter([
   {
-    path: "/cantares/",
+    path: "/",
     errorElement: <ErrorPage />,
     element: <Main />,
     children: [
       {
-        path: "/cantares/",
+        path: "/",
         element: <Home1 />,
       },
       {
-        path: "/cantares/about",
+        path: "/about",
         element: <AboutInner />,
       },
       {
-        path: "/cantares/service",
+        path: "/service",
         element: <ServiceInner />,
       },
       {
-        path: "/cantares/service_details",
+        path: "/service_details",
         element: <ServiceDetails />,
       },
       {
-        path: "/cantares/service_details2",
+        path: "/service_details2",
         element: <ServiceDetails2 />,
       },
       {
-        path: "/cantares/service_details3",
+        path: "/service_details3",
         element: <ServiceDetails3 />,
       },
       {
-        path: "/cantares/service_details4",
+        path: "/service_details4",
         element: <ServiceDetails4 />,
       },
       {
-        path: "/cantares/service_details5",
+        path: "/service_details5",
         element: <ServiceDetails5 />,
       },
       {
-        path: "/cantares/service_details6",
+        path: "/service_details6",
         element: <ServiceDetails6 />,
       },
       {
-        path: "/cantares/project",
+        path: "/project",
         element: <ProjectInner />,
       },
       {
-        path: "/cantares/project_details",
+        path: "/project_details",
         element: <ProjectDetails />,
       },
       {
-        path: "/cantares/donation_inner",
+        path: "/donation_inner",
         element: <DonationInner />,
       },
       {
-        path: "/cantares/team_inner",
+        path: "/team_inner",
         element: <TeamInner />,
       },
       {
-        path: "/cantares/pricing_inner",
+        path: "/pricing_inner",
         element: <PricingInner />,
       },
       {
-        path: "/cantares/faq_inner",
+        path: "/faq_inner",
         element: <FaqInner />,
       },
       {
-        path: "/cantares/blog_grid",
+        path: "/blog_grid",
         element: <BlogGrid />,
       },
       {
-        path: "/cantares/blog_list",
+        path: "/blog_list",
         element: <BlogList />,
       },
       {
-        path: "/cantares/blog_details",
+        path: "/blog_details",
         element: <BlogDetails />,
       },
       {
-        path: "/cantares/appointment",
+        path: "/appointment",
         element: <AppointmentInner />,
       },
       {
-        path: "/cantares/testimonial",
+        path: "/testimonial",
         element: <TestimonialInner />,
       },
       {
-        path: "/cantares/contact",
+        path: "/contact",
         element: <ContactInner />,
       },
     ],
   },
   {
-    path: "/cantares/",
+    path: "/",
     errorElement: <ErrorPage />,
     element: <Main2 />,
     children: [
       {
-        path: "/cantares/home2",
+        path: "/home2",
         element: <Home2 />,
       },
     ],
   },
   {
-    path: "/cantares/",
+    path: "/",
     errorElement: <ErrorPage />,
     element: <Main3 />,
     children: [
       {
-        path: "/cantares/home3",
+        path: "/home3",
         element: <Home3 />,
       },
     ],
   },
   {
-    path: "/cantares/",
+    path: "/",
     errorElement: <ErrorPage />,
     element: <Main4 />,
     children: [
       {
-        path: "/cantares/home4",
+        path: "/home4",
         element: <Home4 />,
       },
     ],
   },
   {
-    path: "/cantares/",
+    path: "/",
     errorElement: <ErrorPage />,
     element: <Main5 />,
     children: [
       {
-        path: "/cantares/home5",
+        path: "/home5",
         element: <Home5 />,
       },
     ],
