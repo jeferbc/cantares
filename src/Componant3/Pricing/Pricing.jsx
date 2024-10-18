@@ -67,7 +67,7 @@ const pricingData = [
     pricingIcon: <FaCircle />,
     pricingContent1: "Interés del 1% a partir del septimo mes",
     pricingContent2: "Comprenta con el 40% del pago",
-    pricingContent3: "Real Solar PV Systems",
+    pricingContent3: "Siembra de linderos",
     pricingUrl: "/pricing_inner",
     pricingBtn: "Más información",
     pricingShape1: pricingShape1,

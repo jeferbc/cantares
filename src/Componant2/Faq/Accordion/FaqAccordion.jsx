@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa6";
 
 /* eslint-disable react/prop-types */
@@ -8,6 +8,14 @@ const PricingAccordion = ({ children, faqIcon, title, id, active = false }) => {
   useEffect(() => {
     setAccordionOpen(active);
   }, []);
+
+  const spanRef = React.createRef();
+
+  useEffect(() => {
+    if (spanRef.current) {
+        spanRef.current.innerHTML = children;
+    }
+  }, [children, spanRef]);
 
   return (
     <div className="mb-5 rounded-md overflow-hidden">
@@ -53,7 +61,7 @@ const PricingAccordion = ({ children, faqIcon, title, id, active = false }) => {
       >
         <div className="overflow-hidden">
           <p className="pb-6 pt-6 text-sm sm:text-base font-AlbertSans">
-            {children}
+            <span ref={spanRef} />
           </p>
         </div>
       </div>

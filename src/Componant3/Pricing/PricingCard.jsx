@@ -1,11 +1,8 @@
 /* eslint-disable react/prop-types */
-import CountUp from "react-countup";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 const PricingCard = ({
-  currency,
-  price,
+  // currency,
+  // price,
   pricingDateLine,
   pricingDesc,
   pricingTitle,
@@ -13,11 +10,11 @@ const PricingCard = ({
   pricingContent1,
   pricingContent2,
   pricingContent3,
-  pricingContent4,
-  pricingUrl,
-  pricingBtn,
+  // pricingContent4,
+  // pricingUrl,
+  // pricingBtn,
   pricingShape1,
-  pricingShape2,
+  // pricingShape2,
 }) => {
   return (
     <div className="group bg-white rounded-xl relative z-10 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0 before:opacity-0 before:bg-SecondaryColor-0 before:rounded-xl before:-z-10 before:transition-all before:duration-500 hover:before:h-full hover:before:opacity-100 hover:before:top-0">
@@ -47,7 +44,7 @@ const PricingCard = ({
       <p className="font-AlbertSans text-TextColor-0 px-[30px]">
         {pricingDesc}
       </p>
-      <ul>
+      <ul className="pb-[40px]">
         <li className="flex gap-2 items-center font-AlbertSans text-TextColor-0 transition-all duration-500 group-hover:text-white px-[30px] mb-3 mt-9">
           <div className="text-[10px] text-PrimaryColor-0">{pricingIcon}</div>
           {pricingContent1}
@@ -65,14 +62,14 @@ const PricingCard = ({
           {pricingContent4}
         </li> */}
       </ul>
-      <div className="px-[30px] pb-10 flex justify-center">
+      {/* <div className="px-[30px] pb-10 flex justify-center">
         <Link to={pricingUrl}>
           <button className="primary-btn2 mt-9 group-hover:before:w-full group-hover:before:left-0">
             {pricingBtn}
             <FaArrowRightLong size={"20"} />
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

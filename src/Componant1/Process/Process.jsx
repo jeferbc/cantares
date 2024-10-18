@@ -28,7 +28,7 @@ const processData = [
   {
     id: 3,
     processIcon: processIcon3,
-    processTitle: "Firma escrituras y construye tu sueño",
+    processTitle: "Construye tu sueño",
     processDesc:
       "Con la firma de escrituras, podrás empezar a construir tu sueño en el eje cafetero",
   },

@@ -1,5 +1,5 @@
 import serviceImg from "/images/lote-paisajes.webp";
-// import serviceImg1 from "/images/lote-rionegro.webp";
+import serviceImg1 from "/images/lote-rionegro.webp";
 import serviceImg3 from "/images/finca_villa_amparo.webp";
 import serviceIcon from "/images/service2-icon.png";
 // import serviceIcon3 from "/images/service2-icon3.png";
@@ -16,20 +16,20 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceUrl: "/service_details",
     serviceButton2: "Mas información",
-    serviceTitle: "Lotes en el eje cafetero",
+    serviceTitle: "Parcelación Paisajes de Berlín",
     serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
   },
-  // {
-  //   id: 2,
-  //   serviceImg: serviceImg2,
-  //   serviceIcon: serviceIcon2,
-  //   serviceUrl: "/service_details",
-  //   serviceButton2: "Mas información",
-  //   serviceTitle: "Paisajes de berlín #2",
-  //   serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
-  //   serviceShape: serviceShape,
-  // },
+  {
+    id: 2,
+    serviceImg: serviceImg1,
+    serviceIcon: serviceIcon,
+    serviceUrl: "/service_details",
+    serviceButton2: "Mas información",
+    serviceTitle: "Parcelación Caracolí",
+    serviceDesc: "Lotes desde 1200 mts2, desde 120 millones de pesos (COP)",
+    serviceShape: serviceShape,
+  },
   {
     id: 4,
     serviceImg: serviceImg3,
@@ -37,7 +37,7 @@ const ServiceData = [
     serviceUrl: "/service_details",
     serviceButton2: "Mas información",
     serviceTitle: "Finca villa amparo",
-    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+    serviceDesc: "Finca de 3 hectáreas, con casa de 5 habitaciones, 2 baños, cocina, sala ...",
     serviceShape: serviceShape,
   },
   // {

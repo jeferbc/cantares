@@ -115,7 +115,7 @@ const Navbar = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between lg:h-[100px] ">
             {/* website Logo */}
             <div className=" w-48 lg:w-52">
-              <Link to="/" class="flex flex-row items-center">
+              <Link to="/" className="flex flex-row items-center">
                 <img
                   draggable="false"
                   src={Logo}
@@ -130,7 +130,7 @@ const Navbar = () => {
             {/* small screen size */}
             <div className="w-full lg:hidden flex justify-between h-[70px] items-center p-3">
               <div className="w-28">
-                <Link to="/" class="flex flex-row items-center">
+                <Link to="/" className="flex flex-row items-center">
                   <img
                     draggable="false"
                     src={Logo}

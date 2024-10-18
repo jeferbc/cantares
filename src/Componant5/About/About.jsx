@@ -1,9 +1,6 @@
 import aboutThumb from "/images/mapa.png";
 import aboutShape from "/images/about5-shape.png";
 import subTitleShape from "/images/title-shape-2.png";
-import { Link } from "react-router-dom";
-import { IoIosSend } from "react-icons/io";
-import icon from "/images/about5-icon.png"
 
 const About = () => {
   return (
