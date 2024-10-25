@@ -35,6 +35,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const pathname = window.location.pathname;
+
   return (
     <nav
       className={`w-full transition-all duration-300 bg-transparent absolute z-[99999]`}
@@ -170,7 +172,7 @@ const Navbar = () => {
                       : isActive
                       ? "active"
                       : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-3 w-full block transition-all duration-300 group relative `}
-                  to="#projects"
+                  to={`${pathname === '/' ? '#projects' : '/?#projects'}`}
                 >
                   <span>Proyectos</span>
                 </HashLink>

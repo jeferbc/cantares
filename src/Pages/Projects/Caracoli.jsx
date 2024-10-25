@@ -9,14 +9,9 @@ import Information from "./Components/Information.jsx";
 
 const Caracoli = () => {
   const projectImages = [
-    "/images/PB1.webp",
-    "/images/PB2.webp",
-    "/images/PB3.webp",
-    "/images/PB4.webp",
-    "/images/PB5.webp",
-    "/images/PB6.webp",
-    "/images/PB7.webp",
-    "/images/Mapa_lotes.webp",
+    "/images/porteria_caracoli.webp",
+    "/images/mapa_aereo_caracoli.webp",
+    "/images/mapa_caracoli.webp",
   ];
   return (
     <>    

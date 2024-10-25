@@ -1,5 +1,5 @@
 import serviceImg from "/images/lote-paisajes.webp";
-import serviceImg1 from "/images/lote-rionegro.webp";
+import serviceImg1 from "/images/lotes_Caracoli.webp";
 import serviceImg3 from "/images/finca_villa_amparo.webp";
 import serviceIcon from "/images/service2-icon.png";
 // import serviceIcon3 from "/images/service2-icon3.png";
