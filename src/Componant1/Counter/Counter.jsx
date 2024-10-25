@@ -8,7 +8,7 @@ const counterData = [
   {
     id: 1,
     counterIcon: counterIcon,
-    counterDesc: "Vias internas",
+    counterDesc: "Vías internas",
     counterSuffex: "",
   },
   {

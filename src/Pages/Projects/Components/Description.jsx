@@ -25,7 +25,7 @@ const Description = ({title1, text1, text2}) => (
         Sin pago de administración
       </li>
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Vias de acceso pavimentadas y sin peajes
+        Vías de acceso pavimentadas y sin peajes
       </li>
       <li className="relative pl-7 mb-2 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
         Ciudades con aeropuerto:

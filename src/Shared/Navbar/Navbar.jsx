@@ -123,7 +123,7 @@ const Navbar = () => {
                   alt="website_logo"
                 />
                 <p className="hidden lg:block font-AlbertSans font-bold leading-6 sm:text-2xl xl:text-3xl text-[#4BAA00]">
-                  Inversora Cantares
+                  Cantares
                 </p>
               </Link>
             </div>
