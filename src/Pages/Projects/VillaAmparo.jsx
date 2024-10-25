@@ -9,13 +9,13 @@ import Information from "./Components/Information.jsx";
 
 const VillaAmparo = () => {
   const projectImages = [
-    "/images/PB1.webp",
-    "/images/PB2.webp",
-    "/images/PB3.webp",
-    "/images/PB4.webp",
-    "/images/PB5.webp",
-    "/images/PB6.webp",
-    "/images/PB7.webp",
+    "/images/VA1.webp",
+    "/images/VA2.webp",
+    "/images/VA3.webp",
+    "/images/VA4.webp",
+    "/images/VA5.webp",
+    "/images/VA6.webp",
+    "/images/VA7.webp",
     "/images/Mapa_lotes.webp",
     // "/images/Mapa_vista_aerea.webp",
   ];
@@ -32,24 +32,23 @@ const VillaAmparo = () => {
         <div className="grid grid-cols-0 lg:grid-cols-3 gap-[70px] my-12 px-5">
           <div className="col-span-0 lg:col-span-2 order-1 lg:order-0">
             <Description
-              title1="Guaduales de Berlín: Vive la Naturaleza en el Corazón del Eje Cafetero"
-              text1=" ¿Te imaginas despertar cada día rodeado de la serenidad del bosque, en una casa campestre diseñada a tu medida y con un paisaje nativo que realza la belleza del entorno? En Guaduales de Berlín, ese sueño está al alcance de tu mano. Este proyecto de lotes campestres ofrece una ubicación privilegiada en pleno Eje Cafetero, una de las zonas de mayor valorización y potencial en Colombia."
-              text2=" Guaduales de Berlín ofrece más que un lote; es una inversión en tranquilidad, seguridad y valorización en el mediano plazo. Si buscas un espacio para construir la casa de tus sueños y disfrutar de un estilo de vida en equilibrio con la naturaleza, ¡esta es tu oportunidad!"
+              title1="Finca Campestre de 1 Hectárea en el Eje Cafetero: Naturaleza y Tranquilidad"
+              text1=" Descubre el lugar perfecto para disfrutar de la vida campestre en una finca de 1 hectárea en el corazón del Eje Cafetero. Ubicada en una zona de alta valorización, esta propiedad te brinda la oportunidad de construir un refugio rodeado de un impresionante paisaje nativo, ideal para desconectar del bullicio y conectar con la naturaleza."
             />
           </div>
           <div className="col-span-0 lg:col-span-1 order-0 lg:order-1 w-100">
             <Information
               title1="Area :"
-              text1="Desde 1460 m2"
-              title2="Valor M2 :"
-              text2="Desde $70.000 dependiendo de la topografía"
+              text1="1 Hectarea"
+              title2="Area construida :"
+              text2="250 M2"
               title3="Sector :"
               text3="Berlín, a 5 min de Ulloa Valle"
-              title4="Disponibles :"
-              text4="últimos dos lotes"
+              title4="Precio :"
+              text4="700 Millones de Pesos (COP) Negociales"
             />
             <WhatsappContainer
-              projectName="la parcelación Guaduales de Berlín"
+              projectName="la finca Villa Amparo"
             />
           </div>
         </div>

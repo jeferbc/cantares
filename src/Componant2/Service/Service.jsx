@@ -1,5 +1,6 @@
 import serviceImg from "/images/lote-paisajes.webp";
 import serviceImg1 from "/images/lotes_Caracoli.webp";
+import serviceImg2 from "/images/lotes_Guaduales.webp";
 import serviceImg3 from "/images/finca_villa_amparo.webp";
 import serviceIcon from "/images/service2-icon.png";
 // import serviceIcon3 from "/images/service2-icon3.png";
@@ -26,18 +27,17 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Caracolí",
-    serviceDesc: "Lotes desde 1200 mts2, desde 120 millones de pesos (COP)",
+    serviceDesc: "Lotes desde 1200 mts2, desde 126 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/caracoli",
   },
     {
     id: 3,
-    serviceImg: serviceImg1,
+    serviceImg: serviceImg2,
     serviceIcon: serviceIcon,
-
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Guaduales de Berlín",
-    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+    serviceDesc: "Lotes desde 1460 mts2, desde 102 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/guaduales-berlin",
   },

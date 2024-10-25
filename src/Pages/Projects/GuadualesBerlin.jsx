@@ -9,13 +9,10 @@ import Information from "./Components/Information.jsx";
 
 const GuadualesBerlin = () => {
   const projectImages = [
-    "/images/PB1.webp",
-    "/images/PB2.webp",
-    "/images/PB3.webp",
-    "/images/PB4.webp",
-    "/images/PB5.webp",
-    "/images/PB6.webp",
-    "/images/PB7.webp",
+    "/images/g1.webp",
+    "/images/g2.webp",
+    "/images/g3.webp",
+    "/images/g4.webp",
     "/images/Mapa_lotes.webp",
     // "/images/Mapa_vista_aerea.webp",
   ];
