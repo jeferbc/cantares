@@ -30,6 +30,10 @@ import ProjectDetails from "../Pages/InnerPage/ProjectDetails/ProjectDetails";
 import FaqInner from "../Pages/InnerPage/Faq/Accordion/FaqInner";
 import Main5 from "../Main/Main5";
 import TestimonialInner from "../Pages/InnerPage/TestimonialInner/TestimonialInner";
+import Caracoli from "../Pages/Projects/Caracoli";
+import PaisajesBerlin from "../Pages/Projects/PaisajesBerlin";
+import GuadualesBerlin from "../Pages/Projects/GuadualesBerlin";
+import VillaAmparo from "../Pages/Projects/VillaAmparo";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +48,22 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutInner />,
+      },
+      {
+        path: "/caracoli",
+        element: <Caracoli />,
+      },
+      {
+        path: "/paisajes-berlin",
+        element: <PaisajesBerlin />,
+      },
+      {
+        path: "/finca-villa-amparo",
+        element: <VillaAmparo />,
+      },
+      {
+        path: "/guaduales-berlin",
+        element: <GuadualesBerlin />,
       },
       {
         path: "/service",

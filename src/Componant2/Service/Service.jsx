@@ -14,46 +14,47 @@ const ServiceData = [
     id: 1,
     serviceImg: serviceImg,
     serviceIcon: serviceIcon,
-    serviceUrl: "/service_details",
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Paisajes de Berlín",
     serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
+    serviceUrl: "/paisajes-berlin",
   },
   {
     id: 2,
     serviceImg: serviceImg1,
     serviceIcon: serviceIcon,
-    serviceUrl: "/service_details",
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Caracolí",
     serviceDesc: "Lotes desde 1200 mts2, desde 120 millones de pesos (COP)",
     serviceShape: serviceShape,
+    serviceUrl: "/caracoli",
+  },
+    {
+    id: 3,
+    serviceImg: serviceImg1,
+    serviceIcon: serviceIcon,
+
+    serviceButton2: "Mas información",
+    serviceTitle: "Parcelación Guaduales de Berlín",
+    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+    serviceShape: serviceShape,
+    serviceUrl: "/guaduales-berlin",
   },
   {
     id: 4,
     serviceImg: serviceImg3,
     serviceIcon: serviceIcon,
-    serviceUrl: "/service_details",
     serviceButton2: "Mas información",
     serviceTitle: "Finca villa amparo",
     serviceDesc: "Finca de 3 hectáreas, con casa de 5 habitaciones, 2 baños, cocina, sala ...",
     serviceShape: serviceShape,
-  },
-  // {
-  //   id: 3,
-  //   serviceImg: serviceImg1,
-  //   serviceIcon: serviceIcon3,
-  //   serviceUrl: "/service_details",
-  //   serviceButton2: "Mas información",
-  //   serviceTitle: "Lote en Rionegro Antioquia",
-  //   serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
-  //   serviceShape: serviceShape,
-  // },
+    serviceUrl: "/finca-villa-amparo",
+  }
 ];
 
 const Service = () => (
-  <section className="service relative pt-28 pb-[120px] bg-[#f5f8ed] z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 2xl:before:h-[54.8%] before:bg-[url('/images/service2-bg.jpg')] before:-z-10 before:bg-cover before:bg-center before:bg-y-repeat" id="projects">
+  <section className="service relative pt-28 pb-[120px] bg-[#f5f8ed] z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-[100%] before:bg-[url('/images/service2-bg.jpg')] before:-z-10 before:bg-cover before:bg-center before:bg-y-repeat" id="projects">
     <img
       src={serviceMainShape1}
       draggable="false"

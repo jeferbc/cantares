@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { FaBars } from "react-icons/fa6";
-import Logo from "/images/logo.png";
+import Logo from "/images/Logo40X40.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import ContactUs from "../../Shared/ContactUs";
@@ -114,31 +114,31 @@ const Navbar = () => {
           {/* main Navbar */}
           <div className="flex flex-col lg:flex-row items-center justify-between lg:h-[100px] ">
             {/* website Logo */}
-            <div className=" w-48 lg:w-52">
-              <Link to="/" className="flex flex-row items-center">
+            <div className="">
+              <Link to="/" className="flex flex-row items-center gap-3 items-baseline">
                 <img
                   draggable="false"
                   src={Logo}
-                  className="hidden lg:block size-24"
+                  className="hidden lg:block"
                   alt="website_logo"
                 />
-                <p className="hidden lg:block font-AlbertSans font-bold text-xl leading-6 sm:text-[38px] sm:leading-[48px] md:text-[40px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-white">
-                  Cantares
+                <p className="hidden lg:block font-AlbertSans font-bold leading-6 sm:text-2xl xl:text-3xl text-[#4BAA00]">
+                  Inversora Cantares
                 </p>
               </Link>
             </div>
             {/* small screen size */}
             <div className="w-full lg:hidden flex justify-between h-[70px] items-center p-3">
-              <div className="w-28">
-                <Link to="/" className="flex flex-row items-center">
+              <div>
+                <Link to="/" className="flex flex-row items-baseline gap-3">
                   <img
                     draggable="false"
                     src={Logo}
                     className="block lg:hidden"
                     alt="constre_website_logo"
                   />
-                  <p className="block lg:hidden font-AlbertSans font-bold text-xl leading-6 sm:text-[38px] sm:leading-[48px] md:text-[40px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[40px] xl:leading-[50px] 2xl:text-[46px] 2xl:leading-[56px] text-white">
-                    Cantares
+                  <p className="block lg:hidden font-AlbertSans font-bold leading-6 text-[30px] text-[#4BAA00]">
+                  Inversora Cantares
                   </p>
                 </Link>
               </div>
@@ -174,7 +174,7 @@ const Navbar = () => {
                 >
                   <span>Proyectos</span>
                 </HashLink>
-                <HashLink
+                {/* <HashLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -184,7 +184,7 @@ const Navbar = () => {
                   to="#pricing"
                 >
                   <span>Planes</span>
-                </HashLink>
+                </HashLink> */}
                 <HashLink
                   className={`${({ isActive, isPending }) =>
                     isPending

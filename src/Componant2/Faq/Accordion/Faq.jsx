@@ -30,12 +30,6 @@ const Faq = () => {
     },
     {
       faqIcon: faqIcon,
-      title: "¿Cómo puedo mantener mi lote organizado?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
-      active: false,
-    },
-    {
-      faqIcon: faqIcon,
       title: "¿Con que servicios disponen los lotes en parcelación?",
       text:  `<p>En el <strong class="font-semibold text-[17px]">Eje Cafetero</strong>, ofrecemos parcelaciones con lotes de 1.000 m² a 2.700 m², enfocadas en la calidad de vida y la conexión con la naturaleza. Contamos con <strong class="font-semibold text-[17px]">servicios básicos</strong> de agua y electricidad, vías internas bien mantenidas, iluminación, paisajismo nativo, y portería eléctrica para seguridad.</p>
               <p>Nuestras parcelaciones tienen <strong class="font-semibold text-[17px]">escrituras individuales</strong>, sin trámites complicados ni pagos de administración. Además, su ubicación estratégica garantiza una alta valorización en el mediano plazo, haciendo de tu inversión una decisión inteligente.</p>

@@ -5,40 +5,25 @@ import "swiper/css";
 // import { LiaPlayCircleSolid } from "react-icons/lia";
 import "./banner.css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
 import ContactUs from "../../Shared/ContactUs";
+import PropTypes from "prop-types";
 
-const Banner = () => {
-  // const [toggler, setToggler] = useState(false);
-  const settings = {
-    loop: true,
-    speed: 2000,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    duration: 3000,
-  };
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + ' pagination-bullet"></span>';
-    },
-  };
+const Banner = ({img, text1, text2, text3 }) => {
   return (
     <div className="relative" id="header">
-      <Swiper {...settings} pagination={pagination} modules={[Pagination]}>
+      <Swiper>
         <SwiperSlide>
-          <section className="bg-[url('/images/imagen_home.webp')] bg-cover bg-left lg:bg-center bg-no-repeat h-[750px] sm:h-[700px] md:h-[750px] lg:h-[760px] xl:h-[960px] flex items-center">
+          <section className="bg-cover bg-left lg:bg-center bg-no-repeat h-[750px] sm:h-[700px] md:h-[750px] lg:h-[760px] xl:h-[960px] flex items-center"
+                   style={{backgroundImage: `url(${img})`}}>
             <div className="Container">
               <div className="pt-36">
                 <div className="relative banner-content">
                   <h1 className="font-AlbertSans font-extrabold text-white text-[30px] sm:text-[56px] md:text-[70px] lg:text-[50px] xl:text-[60px] 2xl:text-[68px]">
-                    Construye la casa de <br />
-                    campo de tus sueños
+                    {text1} <br />
+                    {text2}
                   </h1>
                   <p className="font-AlbertSans text-lg text-white mb-10">
-                    Venta de lotes y fincas en el corazón del eje cafetero
+                    {text3}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-5">
                     <ContactUs />
@@ -68,6 +53,13 @@ const Banner = () => {
       </Swiper>
     </div>
   );
+};
+
+Banner.propTypes = {
+  img: PropTypes.string,
+  text1: PropTypes.string,
+  text2: PropTypes.string,
+  text3: PropTypes.string,
 };
 
 export default Banner;
