@@ -16,8 +16,6 @@ const VillaAmparo = () => {
     "/images/VA5.webp",
     "/images/VA6.webp",
     "/images/VA7.webp",
-    "/images/Mapa_lotes.webp",
-    // "/images/Mapa_vista_aerea.webp",
   ];
   return (
     <>    

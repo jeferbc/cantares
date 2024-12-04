@@ -13,8 +13,6 @@ const GuadualesBerlin = () => {
     "/images/g2.webp",
     "/images/g3.webp",
     "/images/g4.webp",
-    "/images/Mapa_lotes.webp",
-    // "/images/Mapa_vista_aerea.webp",
   ];
   return (
     <>    

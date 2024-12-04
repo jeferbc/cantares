@@ -52,7 +52,7 @@ const PaisajesBerlin = () => {
               title1="Area :"
               text1="Desde 1200 m2"
               title2="Valor M2 :"
-              text2="Desde $100.000 dependiendo de la topografía"
+              text2="Desde $80.000 dependiendo de la topografía"
               title3="Sector :"
               text3="Berlín, a 5 min de Ulloa Valle"
             />
