@@ -49,7 +49,7 @@ const VillaAmparo = () => {
             />
             <WhatsappContainer
               projectName="la finca Villa Amparo"
-              contactClass="wapp-villa-amparo"
+              contactClass="wapp-finca-villa-amparo"
             />
           </div>
         </div>
