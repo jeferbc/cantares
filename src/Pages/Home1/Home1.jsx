@@ -7,10 +7,12 @@ import Faq from "../../Componant2/Faq/Accordion/Faq";
 import Process from "../../Componant1/Process/Process";
 // import Pricing from "../../Componant3/Pricing/Pricing";
 import Services from "../../Componant2/Service/Service";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const Home1 = () => {
   return (
     <>
+      <Navbar />
       <Banner
         text1="Construye la casa de"
         text2="campo de tus sueños"

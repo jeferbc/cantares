@@ -6,6 +6,7 @@ import BreadCrumb from "../../Shared/BreadCrumb/BreadCrumb.jsx";
 import Description from "./Components/Description.jsx";
 import WhatsappContainer from "./Components/WhatsappContainer.jsx";
 import Information from "./Components/Information.jsx";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const Caracoli = () => {
   const projectImages = [
@@ -15,6 +16,7 @@ const Caracoli = () => {
   ];
   return (
     <>    
+      <Navbar />
       <BreadCrumb
         breadCrumbTitle="Parcelación Caracolí"
         breadCrumbSubtitle="Construye la casa de tus sueños en el corazón del Eje Cafetero"
@@ -42,7 +44,10 @@ const Caracoli = () => {
               title4="Disponibles :"
               text4="Últimos dos lotes"
             />
-            <WhatsappContainer projectName="la parcelación Caracolí" />
+            <WhatsappContainer
+              projectName="la parcelación Caracolí"
+              contactClass="wapp-caracoli"
+            />
           </div>
         </div>
         <Counter />

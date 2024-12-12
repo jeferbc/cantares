@@ -6,6 +6,7 @@ import Description from "./Components/Description.jsx";
 import WhatsappContainer from "./Components/WhatsappContainer.jsx";
 import Appointment from "../../Componant3/Appointment/Appointment.jsx";
 import Information from "./Components/Information.jsx";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const PaisajesBerlin = () => {
   const projectImages = [
@@ -20,7 +21,8 @@ const PaisajesBerlin = () => {
     // "/images/Mapa_vista_aerea.webp",
   ];
   return (
-    <>    
+    <>
+      <Navbar />
       <BreadCrumb
         breadCrumbTitle="Parcelación Paisajes de Berlín"
         breadCrumbSubtitle="Construye la casa de tus sueños en medio del bosque, en el corazón del Eje Cafetero"
@@ -58,6 +60,7 @@ const PaisajesBerlin = () => {
             />
             <WhatsappContainer
               projectName="la parcelación Paisajes de Berlín"
+              contactClass="wapp-paisajes-berlin"
             />
           </div>
         </div>

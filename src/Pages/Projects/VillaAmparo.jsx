@@ -6,6 +6,7 @@ import Description from "./Components/Description.jsx";
 import WhatsappContainer from "./Components/WhatsappContainer.jsx";
 import Appointment from "../../Componant3/Appointment/Appointment.jsx";
 import Information from "./Components/Information.jsx";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const VillaAmparo = () => {
   const projectImages = [
@@ -18,7 +19,8 @@ const VillaAmparo = () => {
     "/images/VA7.webp",
   ];
   return (
-    <>    
+    <>
+      <Navbar />
       <BreadCrumb
         breadCrumbTitle="Finca Villa Amparo"
         breadCrumbSubtitle="Un refugio seguro y tranquilo con alta valorización"
@@ -47,6 +49,7 @@ const VillaAmparo = () => {
             />
             <WhatsappContainer
               projectName="la finca Villa Amparo"
+              contactClass="wapp-villa-amparo"
             />
           </div>
         </div>

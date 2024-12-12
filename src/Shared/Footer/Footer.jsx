@@ -67,7 +67,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://wa.me/573234603133?text=Hola%20,%20quiero%20más%20información%20de%20los%20lotes%20en%20venta" target='_blank' className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:text-PrimaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-white before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
+                    <a href="https://wa.me/573234603133?text=Hola%20,%20quiero%20más%20información%20de%20los%20lotes%20en%20venta" target='_blank' className="w-10 h-10 rounded-full wapp-contact border-2 border-white flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:text-PrimaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-white before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
                       <FaWhatsapp />
                     </a>
                   </li>

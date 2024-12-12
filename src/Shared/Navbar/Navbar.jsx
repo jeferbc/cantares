@@ -8,8 +8,6 @@ import { IoMdClose } from "react-icons/io";
 import ContactUs from "../../Shared/ContactUs";
 
 const Navbar = () => {
-  //sticky
-
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
     return () => {

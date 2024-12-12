@@ -6,6 +6,7 @@ import Description from "./Components/Description.jsx";
 import WhatsappContainer from "./Components/WhatsappContainer.jsx";
 import Appointment from "../../Componant3/Appointment/Appointment.jsx";
 import Information from "./Components/Information.jsx";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const GuadualesBerlin = () => {
   const projectImages = [
@@ -15,7 +16,8 @@ const GuadualesBerlin = () => {
     "/images/g4.webp",
   ];
   return (
-    <>    
+    <>
+      <Navbar />
       <BreadCrumb
         breadCrumbTitle="Parcelación Guaduales de Berlín"
         breadCrumbSubtitle="Un refugio seguro y tranquilo con alta valorización"
@@ -45,6 +47,7 @@ const GuadualesBerlin = () => {
             />
             <WhatsappContainer
               projectName="la parcelación Guaduales de Berlín"
+              contactClass="wapp-guaduales-berlin"
             />
           </div>
         </div>
