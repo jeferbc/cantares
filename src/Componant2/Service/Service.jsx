@@ -2,6 +2,7 @@ import serviceImg from "/images/lote-paisajes.webp";
 import serviceImg1 from "/images/lotes_Caracoli.webp";
 import serviceImg2 from "/images/lotes_Guaduales.webp";
 import serviceImg3 from "/images/finca_villa_amparo.webp";
+import serviceImg4 from "/images/bodega_scaled.jpeg";
 import serviceIcon from "/images/service2-icon.png";
 // import serviceIcon3 from "/images/service2-icon3.png";
 import serviceShape from "/images/service-shape.png";
@@ -50,6 +51,16 @@ const ServiceData = [
     serviceDesc: "Finca de 3 hectáreas, con casa de 5 habitaciones, 2 baños, cocina, sala ...",
     serviceShape: serviceShape,
     serviceUrl: "/finca-villa-amparo",
+  },
+  {
+    id: 5,
+    serviceImg: serviceImg4,
+    serviceIcon: serviceIcon,
+    serviceButton2: "Mas información",
+    serviceTitle: "Bodega y oficina",
+    serviceDesc: "Bodega de 700m2 y oficina de xxxmt2, en Ulloa, Valle del Cauca",
+    serviceShape: serviceShape,
+    serviceUrl: "/bodega",
   }
 ];
 

@@ -2,27 +2,33 @@ import PropTypes from "prop-types";
 
 const Description = ({title1, text1, text2}) => (
   <div className="col-span-2 lg:col-span-2">
-    <p className="font-AlbertSans text-TextColor-0 mt-7 mb-9">
-      {text2}
-    </p>
     <h2 className="font-AlbertSans font-semibold text-[28px] text-HeadingColor-0 my-5">
-      ¿Porqué elegir esta parcelación?
+      ¿Porqué elegir esta Bodega?
     </h2>
     <ul className="grid grid-cols-0">
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Escrituras individuales
+        1 Oficina
       </li>
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Construcción libre
+        2 Baños
       </li>
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Sin pago de administración
+        Zona comercial
       </li>
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Vías de acceso pavimentadas y sin peajes
+        Espacio para parqueadero de carga y descarga
       </li>
-      <li className="relative pl-7 mb-2 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        Ciudades con aeropuerto:
+      <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Puerta de carga espaciosa y funcional.
+      </li>
+      <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Vías de acceso pavimentadas
+      </li>
+      <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Con todos los servicios públicos
+      </li>
+      <li className="relative pl-7 mb-3 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Cerca de ciudades principales y pueblos
       </li>
       <ul className="pl-7 mb-2">
         <li className="relative pl-7 font-AlbertSans mb-2 text-TextColor-0 font-light text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
@@ -57,16 +63,13 @@ const Description = ({title1, text1, text2}) => (
       Alta valorización garantizada
     </h2>
     <p className="font-AlbertSans text-TextColor-0 mt-6">
-      Nuestro proyecto se sitúa en un área de alta valorización,
-      ideal tanto para quienes desean construir su hogar soñado
-      como para inversionistas que buscan hacer una excelente inversión
-      a futuro.
+    Nuestro proyecto se encuentra en una ubicación estratégica dentro de un pueblo con un alto potencial de valorización en el mediano plazo.
+    Este inmueble es una oportunidad única tanto para empresarios que necesitan un espacio funcional y bien ubicado como para inversionistas que desean asegurar un activo con excelentes proyecciones de rentabilidad.
+    
     </p>
     <p className="font-AlbertSans text-TextColor-0 mt-6">
-      Si sueñas con un hogar en la naturaleza, cerca de los
-      paisajes más bellos de Colombia, y con acceso directo a
-      los atractivos culturales y naturales del Eje Cafetero.
-      Ven y construye aquí tu hogar de ensueño.
+      Imagina ser parte del crecimiento de una zona con gran proyección económica y paisajística, rodeada por los espectaculares escenarios naturales y culturales del Eje Cafetero. Ya sea que busques desarrollar un negocio, almacenar productos, o tener una base operativa estratégica, esta bodega es la opción perfecta.
+      <strong>Concreta tu visión hoy mismo y sé parte de una zona con un futuro prometedor.</strong>
     </p>
   </div>
 )

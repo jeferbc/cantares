@@ -34,6 +34,7 @@ import Caracoli from "../Pages/Projects/Caracoli";
 import PaisajesBerlin from "../Pages/Projects/PaisajesBerlin";
 import GuadualesBerlin from "../Pages/Projects/GuadualesBerlin";
 import VillaAmparo from "../Pages/Projects/VillaAmparo";
+import Bodega from "../Pages/Projects/Bodega";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
       {
         path: "/guaduales-berlin",
         element: <GuadualesBerlin />,
+      },
+      {
+        path: "/Bodega",
+        element: <Bodega />,
       },
       {
         path: "/service",

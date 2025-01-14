@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import ContactUs from "../../Shared/ContactUs";
 
-const Navbar = () => {
+const Navbar = ({alternative}) => {
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
     return () => {
@@ -37,73 +37,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full transition-all duration-300 bg-transparent absolute z-[99999]`}
+      className={`w-full transition-all duration-300 ${alternative ? 'bg-black' : 'bg-transparent'} absolute z-[99999]`}
     >
       {/* top Navbar */}
-      <header className="bg-transparent overflow-hidden md:block">
-        {/* <div className="Container flex items-center justify-between h-[50px]">
-          <div className="flex items-center gap-10">
-            <p className="font-AlbertSans text-[15px] text-white sm:flex hidden items-center gap-1">
-              <CiLocationOn className="text-xl relative bottom-[2px] text-PrimaryColor-0" />
-              102/B New Market, Sandigo-USA
-            </p>
-            <Link
-              to={"/"}
-              className="font-AlbertSans text-[15px] text-white md:flex items-center gap-2 hidden"
-            >
-              <HiOutlineMailOpen size={"16"} className="text-PrimaryColor-0" />
-              inversoracantares@gmail.com
-            </Link>
-          </div>
-          <div className="flex items-center gap-16">
-            <div className="lg:flex items-center gap-2 hidden">
-              <span className="flex items-center gap-2 text-sm text-PrimaryColor-0">
-                <FaPhone />
-              </span>
-              <Link
-                to={"/"}
-                className="font-AlbertSans font-medium text-sm text-white"
-              >
-                +123 (4567) 890
-              </Link>
-            </div>
-            <ul className="flex gap-3 items-center">
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaXTwitter />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaLinkedinIn />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaPinterestP />
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div> */}
-      </header>
+      <header className="bg-transparent overflow-hidden md:block" />
       {/* top Navbar */}
       <header
         className="header-section bg-transparent border-t border-b border-BorderColor4-0"
@@ -228,6 +165,10 @@ const Navbar = () => {
       </header>
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  alternative: false,
 };
 
 export default Navbar;
