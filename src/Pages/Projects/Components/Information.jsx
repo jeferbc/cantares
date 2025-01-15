@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Information = ({title1, text1, title2, text2, title3, text3, title4, text4}) => (
+const Information = ({title1, text1, title2, text2, title3, text3, title4, text4, location}) => (
   <div className="rounded-lg overflow-hidden bg-[#f5f8ed] mb-7">
     <div className="mx-9 pt-9 border-b border-dashed border-[#D9DDEC] pb-4">
       <p className="font-AlbertSans text-TextColor-0">{title1}</p>
@@ -28,7 +28,7 @@ const Information = ({title1, text1, title2, text2, title3, text3, title4, text4
           {title4}
         </p>
         <h5 className="font-AlbertSans font-semibold text-HeadingColor-0 pt-1">
-          {text4}
+          {text4} {location}
         </h5>
       </div>
     )}
@@ -43,7 +43,8 @@ Information.propTypes = {
   title3: PropTypes.string,
   text3: PropTypes.string,
   title4: PropTypes.string,
-  text4: PropTypes.string
+  text4: PropTypes.string,
+  location: PropTypes.node,
 };
 
 export default Information;

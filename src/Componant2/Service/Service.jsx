@@ -18,7 +18,7 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Paisajes de Berlín",
-    serviceDesc: "Lotes desde 1500 mts2, desde 120 millones de pesos (COP)",
+    serviceDesc: "Lotes desde 1200 mts2, desde 86 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/paisajes-berlin",
   },
@@ -28,9 +28,10 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceButton2: "Mas información",
     serviceTitle: "Parcelación Caracolí",
-    serviceDesc: "Lotes desde 1200 mts2, desde 126 millones de pesos (COP)",
+    serviceDesc: "Lotes desde 1800 mts2, desde 126 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/caracoli",
+    ServiceAlert: "¡Últimos dos lotes!"
   },
     {
     id: 3,
@@ -41,6 +42,7 @@ const ServiceData = [
     serviceDesc: "Lotes desde 1460 mts2, desde 102 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/guaduales-berlin",
+    ServiceAlert: "¡Últimos dos lotes!"
   },
   {
     id: 4,
@@ -58,7 +60,7 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceButton2: "Mas información",
     serviceTitle: "Bodega y oficina",
-    serviceDesc: "Bodega de 700m2 y oficina de xxxmt2, en Ulloa, Valle del Cauca",
+    serviceDesc: "Bodega y oficina de 350mt2, en Ulloa, Valle del Cauca",
     serviceShape: serviceShape,
     serviceUrl: "/bodega",
   }
@@ -92,6 +94,7 @@ const Service = () => (
               serviceTitle,
               serviceDesc,
               serviceShape,
+              ServiceAlert,
             }) => {
               return (
                 <div className="pb-[100px]" key={`project-${id}`}>
@@ -102,6 +105,7 @@ const Service = () => (
                     serviceTitle={serviceTitle}
                     serviceDesc={serviceDesc}
                     serviceShape={serviceShape}
+                    ServiceAlert={ServiceAlert}
                   />
                 </div>
               );

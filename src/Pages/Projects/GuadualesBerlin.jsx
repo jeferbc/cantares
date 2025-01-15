@@ -40,10 +40,11 @@ const GuadualesBerlin = () => {
               text1="Desde 1460 m2"
               title2="Valor M2 :"
               text2="Desde $70.000 dependiendo de la topografía"
-              title3="Sector :"
-              text3="Berlín, a 5 min de Ulloa Valle"
-              title4="Disponibles :"
-              text4="últimos dos lotes"
+              title3="Disponibles :"
+              text3="últimos dos lotes"
+              title4="Sector :"
+              text4="Berlín, a 5 min de Ulloa Valle"
+              location={<a href="https://maps.app.goo.gl/4Zvi25H7zjW3LR2T8" target="_blank" className="text-PrimaryColor-0">Ver en mapa</a>}
             />
             <WhatsappContainer
               projectName="la parcelación Guaduales de Berlín"

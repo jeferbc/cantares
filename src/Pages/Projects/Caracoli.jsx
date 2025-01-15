@@ -39,10 +39,11 @@ const Caracoli = () => {
               text1="Desde 1800 m2"
               title2="Valor M2 :"
               text2="Desde $70.000 dependiendo de la topografía"
-              title3="Sector :"
-              text3="La America, a 3 min de Ulloa Valle"
-              title4="Disponibles :"
-              text4="Últimos dos lotes"
+              title3="Disponibles :"
+              text3="Últimos dos lotes"
+              title4="Sector :"
+              text4="La America, a 3 min de Ulloa Valle"
+              location={<a href="https://maps.app.goo.gl/dKwQGj4PLDY9kPzAA" target="_blank" className="text-PrimaryColor-0">Ver en mapa</a>}
             />
             <WhatsappContainer
               projectName="la parcelación Caracolí"

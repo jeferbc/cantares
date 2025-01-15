@@ -55,8 +55,11 @@ const PaisajesBerlin = () => {
               text1="Desde 1200 m2"
               title2="Valor M2 :"
               text2="Desde $80.000 dependiendo de la topografía"
-              title3="Sector :"
-              text3="Berlín, a 5 min de Ulloa Valle"
+              title3="Disponibles :"
+              text3="12 lotes disponibles"
+              title4="Sector :"
+              text4="Berlín, a 5 min de Ulloa Valle"
+              location={<a href="https://maps.app.goo.gl/w2e3xj4gxu3j1hCv6" target="_blank" className="text-PrimaryColor-0">Ver en mapa</a>}
             />
             <WhatsappContainer
               projectName="la parcelación Paisajes de Berlín"

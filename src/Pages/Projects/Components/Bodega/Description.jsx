@@ -1,13 +1,17 @@
-import PropTypes from "prop-types";
-
-const Description = ({title1, text1, text2}) => (
+const Description = () => (
   <div className="col-span-2 lg:col-span-2">
     <h2 className="font-AlbertSans font-semibold text-[28px] text-HeadingColor-0 my-5">
       ¿Porqué elegir esta Bodega?
     </h2>
     <ul className="grid grid-cols-0">
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
-        1 Oficina
+        Local Comercial
+      </li>
+      <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Mezzanine
+      </li>
+      <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
+        Sotano
       </li>
       <li className="relative pl-7 mb-5 text-TextColor-0 text-[17px] before:absolute before:w-2 before:h-2 before:rounded-full before:bg-PrimaryColor-0 before:top-1/2 before:-translate-y-1/2 before:left-[5px] after:absolute after:w-[18px] after:h-[18px] after:rounded-full after:bg-transparent after:border after:border-PrimaryColor-0 after:top-1/2 after:-translate-y-1/2 after:left-0">
         2 Baños
@@ -73,11 +77,5 @@ const Description = ({title1, text1, text2}) => (
     </p>
   </div>
 )
-
-Description.propTypes = {
-  title1: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-};
 
 export default Description;

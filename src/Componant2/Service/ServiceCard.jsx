@@ -8,6 +8,7 @@ const ServiceCard = ({
   serviceTitle,
   serviceDesc,
   serviceShape,
+  ServiceAlert,
 }) => {
   return (
     <div className="rounded-xl bg-white group relative z-10 overflow-hidden before:absolute before:bottom-0 before:left-0 before:w-full before:h-0 before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 h-[500px] md:h-[450px]">
@@ -23,13 +24,16 @@ const ServiceCard = ({
         <p className="font-AlbertSans text-TextColor-0 pt-6 pb-6">
           {serviceDesc}
         </p>
-        <div className="flex justify-between items-center border-t border-BorderColor2-0 py-4">
           <Link to={serviceUrl}>
+          <div className="flex justify-between items-center border-t border-BorderColor2-0 py-4">
             <button className="font-AlbertSans text-HeadingColor-0 font-medium border-b border-BorderColor2-0 transition-all duration-500 group-hover:border-BorderColor-0">
               {serviceButton2}
             </button>
-          </Link>
-        </div>
+            <p className="font-AlbertSans text-red-700">
+              {ServiceAlert}
+            </p>
+          </div>
+        </Link>
       </div>
       <img
         src={serviceShape}

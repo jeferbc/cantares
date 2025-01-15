@@ -42,14 +42,16 @@ const VillaAmparo = () => {
               text1="1 Hectarea"
               title2="Area construida :"
               text2="250 M2"
-              title3="Sector :"
-              text3="Berlín, a 5 min de Ulloa Valle"
-              title4="Precio :"
-              text4="700 Millones de Pesos (COP) Negociales"
+              title3="Precio :"
+              text3="700 Millones de Pesos (COP) Negociales"
+              title4="Sector :"
+              text4="Berlín, a 5 min de Ulloa Valle"
+              location={<a href="https://maps.app.goo.gl/4GLzCEbtUd9gJJWRA" target="_blank" className="text-PrimaryColor-0">Ver en mapa</a>}
             />
             <WhatsappContainer
               projectName="la finca Villa Amparo"
               contactClass="wapp-finca-villa-amparo"
+              type="finca"
             />
           </div>
         </div>
