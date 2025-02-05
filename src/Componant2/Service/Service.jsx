@@ -42,17 +42,7 @@ const ServiceData = [
     serviceDesc: "Lotes desde 1460 mts2, desde 102 millones de pesos (COP)",
     serviceShape: serviceShape,
     serviceUrl: "/guaduales-berlin",
-    ServiceAlert: "¡Últimos dos lotes!"
-  },
-  {
-    id: 4,
-    serviceImg: serviceImg3,
-    serviceIcon: serviceIcon,
-    serviceButton2: "Mas información",
-    serviceTitle: "Finca villa amparo",
-    serviceDesc: "Finca de 3 hectáreas, con casa de 5 habitaciones, 2 baños, cocina, sala ...",
-    serviceShape: serviceShape,
-    serviceUrl: "/finca-villa-amparo",
+    ServiceAlert: "¡Últimos tres lotes!"
   },
   {
     id: 5,
@@ -63,6 +53,17 @@ const ServiceData = [
     serviceDesc: "Bodega y oficina de 350mt2, en Ulloa, Valle del Cauca",
     serviceShape: serviceShape,
     serviceUrl: "/bodega",
+  },
+  {
+    id: 4,
+    serviceImg: serviceImg3,
+    serviceIcon: serviceIcon,
+    serviceButton2: "Mas información",
+    serviceTitle: "Finca villa amparo",
+    serviceDesc: "Finca de 3 hectáreas, con casa de 5 habitaciones, 2 baños, cocina, sala ...",
+    serviceShape: serviceShape,
+    serviceUrl: "/finca-villa-amparo",
+    ServiceAlert: "¡Vendido!"
   }
 ];
 
